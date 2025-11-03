@@ -1,8 +1,9 @@
+/* Reset estilos de plantilla Vite para layout de sitio completo */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: initial;
 }
 
 .logo {
@@ -39,4 +40,14 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Navbar consistente en todas las páginas */
+.cloty-navbar {
+  min-height: 64px;
+}
+.cloty-navbar .navbar-brand,
+.cloty-navbar .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
